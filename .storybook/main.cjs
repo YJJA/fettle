@@ -1,4 +1,3 @@
-const ResolveTypeScriptPlugin = require("resolve-typescript-plugin");
 module.exports = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
@@ -24,7 +23,10 @@ module.exports = {
   webpackFinal: async (config) => {
     config.resolve = {
       ...config.resolve,
-      plugins: [new ResolveTypeScriptPlugin()],
+      extensionAlias: {
+        ".js": [".ts", ".js"],
+        ".mjs": [".mts", ".mjs"],
+      },
     };
 
     return config;
