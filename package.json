@@ -21,7 +21,9 @@
   },
   "files": [
     "src",
-    "lib"
+    "lib",
+    "!**/__tests__",
+    "!**/__test_utils__"
   ],
   "dependencies": {
     "payload-is": "^0.1.1",
