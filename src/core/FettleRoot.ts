@@ -1,5 +1,5 @@
 import { createContext, createElement, useContext, useRef } from "react";
-import FettleStore from "../core/FettleStore";
+import FettleStore from "../core/FettleStore.js";
 
 import type { PropsWithChildren } from "react";
 import type { StoreType } from "./FettleStore";

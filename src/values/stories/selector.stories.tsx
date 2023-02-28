@@ -1,11 +1,12 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Meta } from "@storybook/react";
 
 import { atom, selector, FettleRoot, useFettleState } from "../../index";
 
 export default {
   title: "Example/selector",
-} as ComponentMeta<typeof FettleRoot>;
+  component: FettleRoot,
+} as Meta;
 
 const counterState = atom({
   key: "SelectorCounterState",
@@ -85,7 +86,7 @@ const AsyncAtomComponent = () => {
   );
 };
 
-const AsyncCounterSelector = selector({
+const AsyncCounterSelector = selector<number>({
   key: "AsyncCounterSelector",
   get({ get }) {
     console.log("async get.....");
@@ -113,7 +114,7 @@ const AsyncSelectorComponent = () => {
 
   return (
     <div>
-      AsyncSelectorComponent: {count}
+      <span>AsyncSelectorComponent: {count}</span>
       <button onClick={() => setCount((c) => c + 1)}>+</button>
       <button onClick={() => setCount((c) => c - 1)}>-</button>
     </div>

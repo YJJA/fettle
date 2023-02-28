@@ -1,5 +1,5 @@
-import FettleError from "../adt/FettleError";
-import selectorFamily from "./selectorFamily";
+import FettleError from "../adt/FettleError.js";
+import selectorFamily from "./selectorFamily.js";
 
 import type { ReadOnlyFettleValue } from "../adt/FettleValue";
 

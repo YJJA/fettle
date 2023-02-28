@@ -4,18 +4,19 @@ import { render, act, screen, waitFor, cleanup } from "@testing-library/react";
 
 import renderer from "react-test-renderer";
 
-import atom from "../atom";
-import FettleStore, { StoreType } from "../../core/FettleStore";
-import WrapperRoot from "../../__test_utils__/WrapperRoot";
-import StateRead from "../../__test_utils__/StateRead";
+import atom from "../atom.js";
+import FettleStore, { StoreType } from "../../core/FettleStore.js";
+import WrapperRoot from "../../__test_utils__/WrapperRoot.js";
+import StateRead from "../../__test_utils__/StateRead.js";
+import Loadable, { LoadableType } from "../../adt/Loadable.js";
+import FettleValue from "../../adt/FettleValue.js";
+import FettleCore from "../../core/FettleCore.js";
+
 import type {
   FettleValueType,
   ReadWriteFettleValue,
 } from "../../adt/FettleValue";
 import type { ValueOrUpdater } from "../../types";
-import Loadable, { LoadableType } from "../../adt/Loadable";
-import FettleValue from "../../adt/FettleValue";
-import FettleCore from "../../core/FettleCore";
 
 let store: StoreType;
 

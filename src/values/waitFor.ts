@@ -1,6 +1,6 @@
-import Loadable from "../adt/Loadable";
-import WrappedValue from "../adt/WrappedValue";
-import selectorFamily from "./selectorFamily";
+import Loadable from "../adt/Loadable.js";
+import WrappedValue from "../adt/WrappedValue.js";
+import selectorFamily from "./selectorFamily.js";
 
 import type { FettleValueType, ReadOnlyFettleValue } from "../adt/FettleValue";
 import type { LoadableType } from "../adt/Loadable";

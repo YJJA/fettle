@@ -1,7 +1,7 @@
 import { useCallback } from "react";
-import DefaultValue from "../adt/DefaultValue";
-import { useStore } from "../core/FettleRoot";
-import FettleCore from "../core/FettleCore";
+import DefaultValue from "../adt/DefaultValue.js";
+import { useStore } from "../core/FettleRoot.js";
+import FettleCore from "../core/FettleCore.js";
 
 import type { ReadWriteFettleValue } from "../adt/FettleValue";
 

@@ -1,4 +1,4 @@
-import selectorFamily from "./selectorFamily";
+import selectorFamily from "./selectorFamily.js";
 
 import type { ReadOnlyFettleValue } from "../adt/FettleValue";
 import type { SerializableParam } from "../types";

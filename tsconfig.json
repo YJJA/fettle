@@ -99,7 +99,5 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  },
-  "include": ["src/**/*"],
-  "exclude": ["**/__test_utils__/**/*", "**/__tests__/**/*", "**/stories/**/*"]
+  }
 }

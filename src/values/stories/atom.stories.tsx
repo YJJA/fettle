@@ -1,5 +1,5 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Meta } from "@storybook/react";
 
 import {
   atom,
@@ -13,7 +13,8 @@ import ErrorBoundary from "../../__test_utils__/ErrorBoundary";
 
 export default {
   title: "Example/atom",
-} as ComponentMeta<typeof FettleRoot>;
+  component: FettleRoot,
+} as Meta;
 
 const SyncCounterState = atom<number>({
   key: "AtomCounterState",

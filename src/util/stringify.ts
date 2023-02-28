@@ -5,6 +5,7 @@ import {
   isObject,
   isPromiseLike,
 } from "payload-is";
+
 import type { HasToJSON } from "../types";
 
 function hasToJSON(payload: unknown): payload is HasToJSON<any> {

@@ -1,5 +1,5 @@
-import useFettleValueLoadable from "./useFettleValueLoadable";
-import useSetFettleState from "./useSetFettleState";
+import useFettleValueLoadable from "./useFettleValueLoadable.js";
+import useSetFettleState from "./useSetFettleState.js";
 
 import type { LoadableType } from "../adt/Loadable";
 import type { ReadWriteFettleValue } from "../adt/FettleValue";

@@ -1,17 +1,18 @@
 import { act, waitFor } from "@testing-library/react";
 import { assert } from "console";
-import { FettleValueType } from "../../adt/FettleValue";
-import FettleCore from "../../core/FettleCore";
-import FettleStore, { StoreType } from "../../core/FettleStore";
-import { flushPromisesAndTimers } from "../../__test_utils__/shared";
-import selector from "../selector";
+
+import { FettleValueType } from "../../adt/FettleValue.js";
+import FettleCore from "../../core/FettleCore.js";
+import FettleStore, { StoreType } from "../../core/FettleStore.js";
+import { flushPromisesAndTimers } from "../../__test_utils__/shared.js";
+import selector from "../selector.js";
 import {
   noWait,
   waitForAll,
   waitForAllSettled,
   waitForAny,
   waitForNone,
-} from "../waitFor";
+} from "../waitFor.js";
 
 let store: StoreType;
 

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import Loadable from "../Loadable";
+import Loadable from "../Loadable.js";
 
 const ERROR = new Error("ERROR");
 

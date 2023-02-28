@@ -1,5 +1,5 @@
 import React from "react";
-import useFettleValue from "../hooks/useFettleValue";
+import useFettleValue from "../hooks/useFettleValue.js";
 
 import type { FettleValueType } from "../adt/FettleValue";
 

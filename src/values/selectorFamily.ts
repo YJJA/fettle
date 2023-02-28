@@ -1,4 +1,4 @@
-import selector from "./selector";
+import selector from "./selector.js";
 
 import type {
   FettleValueType,

@@ -1,6 +1,6 @@
 import { isNil } from "payload-is";
-import FettleValue from "../adt/FettleValue";
-import FettleError from "../adt/FettleError";
+import FettleValue from "../adt/FettleValue.js";
+import FettleError from "../adt/FettleError.js";
 
 import type {
   FettleValueType,

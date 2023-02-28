@@ -1,6 +1,6 @@
 import React from "react";
-import FettleRoot from "../core/FettleRoot";
-import ErrorBoundary from "./ErrorBoundary";
+import FettleRoot from "../core/FettleRoot.js";
+import ErrorBoundary from "./ErrorBoundary.js";
 
 import type { PropsWithChildren } from "react";
 

@@ -1,11 +1,12 @@
 import { isFunction, isPromiseLike } from "payload-is";
-import Loadable from "../adt/Loadable";
-import FettleError from "../adt/FettleError";
-import FettleValue from "../adt/FettleValue";
-import DefaultValue from "../adt/DefaultValue";
-import WrappedValue from "../adt/WrappedValue";
-import FettleNode from "../core/FettleNode";
-import FettleCore from "../core/FettleCore";
+
+import Loadable from "../adt/Loadable.js";
+import FettleError from "../adt/FettleError.js";
+import FettleValue from "../adt/FettleValue.js";
+import DefaultValue from "../adt/DefaultValue.js";
+import WrappedValue from "../adt/WrappedValue.js";
+import FettleNode from "../core/FettleNode.js";
+import FettleCore from "../core/FettleCore.js";
 
 import type { LoadableType, LoadingLoadable } from "../adt/Loadable";
 import type { StoreType } from "../core/FettleStore";

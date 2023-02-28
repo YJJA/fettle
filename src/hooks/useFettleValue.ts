@@ -1,4 +1,4 @@
-import useFettleValueLoadable from "./useFettleValueLoadable";
+import useFettleValueLoadable from "./useFettleValueLoadable.js";
 
 import type { FettleValueType } from "../adt/FettleValue";
 import type { LoadableType } from "../adt/Loadable";

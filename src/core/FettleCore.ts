@@ -1,7 +1,7 @@
 import { isFunction } from "payload-is";
-import FettleError from "../adt/FettleError";
-import DefaultValue from "../adt/DefaultValue";
-import FettleNode from "./FettleNode";
+import FettleError from "../adt/FettleError.js";
+import DefaultValue from "../adt/DefaultValue.js";
+import FettleNode from "./FettleNode.js";
 
 import type { DefaultValueType } from "../adt/DefaultValue";
 import type { FettleValueType, ReadWriteFettleValue } from "../adt/FettleValue";

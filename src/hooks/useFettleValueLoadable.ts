@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useSyncExternalStore } from "use-sync-external-store/shim";
 import { useStore } from "../core/FettleRoot";
-import FettleCore from "../core/FettleCore";
+import FettleCore from "../core/FettleCore.js";
 
 import type { FettleValueType } from "../adt/FettleValue";
 import type { LoadableType } from "../adt/Loadable";

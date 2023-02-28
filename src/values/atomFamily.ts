@@ -1,5 +1,6 @@
 import { isFunction } from "payload-is";
-import atom from "./atom";
+
+import atom from "./atom.js";
 
 import type { FettleValueType, ReadWriteFettleValue } from "../adt/FettleValue";
 import type { FettleKey, RawValue, SerializableParam } from "../types";

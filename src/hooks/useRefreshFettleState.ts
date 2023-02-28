@@ -1,6 +1,6 @@
 import { useCallback } from "react";
-import { useStore } from "../core/FettleRoot";
-import FettleCore from "../core/FettleCore";
+import { useStore } from "../core/FettleRoot.js";
+import FettleCore from "../core/FettleCore.js";
 
 import type { FettleValueType } from "../adt/FettleValue";
 
